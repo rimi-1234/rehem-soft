@@ -1,14 +1,15 @@
-import Navbar from './components/Navbar';
+import React from 'react';
+import MainLayout from './layouts/MainLayout';
 import Hero from './components/Hero';
-import './App.css'
+import FeaturesSection from './components/FeaturesSection';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
+    <MainLayout>
       <Hero />
-      {/* Add other sections here */}
-    </div>
+      <FeaturesSection />
+      {/* You can easily add more sections here: <Pricing />, <Contact /> */}
+    </MainLayout>
   );
 }
 
