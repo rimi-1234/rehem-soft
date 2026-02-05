@@ -23,7 +23,7 @@ const FeaturesSection = () => {
     <section className="py-20 bg-gradient-to-b from-brand-50 to-brand-400">
       <div className="max-w-6xl mx-auto px-6 lg:px-12 ">
         
-        {/* --- SECTION HEADER --- */}
+  
         <div className="text-center max-w-6xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#111827] mb-6 tracking-tight">
             What is <span className="text-[#db2777]">REHEM SOFT ?</span>
@@ -34,7 +34,6 @@ const FeaturesSection = () => {
           </p>
         </div>
 
-        {/* --- IMAGE GRID (3 Columns x 3 Rows) --- */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {FEATURE_IMAGES.map((imageSrc, index) => (
             <div 

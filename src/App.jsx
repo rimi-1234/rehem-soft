@@ -8,7 +8,7 @@ function App() {
     <MainLayout>
       <Hero />
       <FeaturesSection />
-      {/* You can easily add more sections here: <Pricing />, <Contact /> */}
+  
     </MainLayout>
   );
 }
