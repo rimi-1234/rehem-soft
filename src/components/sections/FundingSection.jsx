@@ -11,7 +11,7 @@ const FundingSection = () => {
     return (
     
 
-        <section className="pt-10 pb-24 md:pt-16 md:pb-32 bg-white relative overflow-hidden">
+        <section className="pt-10 pb-24 md:pt-16 md:pb-32 bg-gradient-to-b from-white to-brand-50 relative overflow-hidden">
 
         
             <div className="absolute inset-0 pointer-events-none">
