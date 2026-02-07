@@ -7,7 +7,7 @@ const PricingSection = () => {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="pt-4 lg:py-24 bg-white relative overflow-hidden">
       
       {/* Background Decor */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-50/50 rounded-full blur-[120px] -z-0"></div>

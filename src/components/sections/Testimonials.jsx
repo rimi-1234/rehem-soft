@@ -34,7 +34,7 @@ const Testimonials = () => {
   const visibleCards = getVisibleTestimonials();
 
   return (
-    <section className="py-24 bg-brand-50 relative overflow-hidden">
+    <section className="pt-6 lg:py-24 bg-brand-50 relative overflow-hidden">
       
       {/* Background Blob */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-pink-200/20 rounded-full blur-[100px] -z-0"></div>
@@ -91,7 +91,7 @@ const Testimonials = () => {
         </div>
         
         {/* Mobile Navigation Dots */}
-        <div className="flex justify-center gap-2 mt-8 md:hidden">
+        <div className="flex justify-center gap-2 my-8 md:hidden">
           {testimonials.map((_, idx) => (
              <button 
                key={idx}
